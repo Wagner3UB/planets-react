@@ -1,0 +1,2 @@
+body{display:flex;justify-content:center}body article{max-width:786px}.planets-form div{display:flex;justify-content:space-between;margin:10px 0;width:60%}.planets-form input{width:300px}img{border-radius:100%;width:100%}.gray-img{-webkit-filter:grayscale(100%);filter:grayscale(100%)}.color-img{-webkit-filter:contrast(200%);filter:contrast(200%)}.planets{display:flex;flex-wrap:wrap}.planet-container{border:1px solid #ddd;display:flex;padding:10px 20px;width:calc(50% - 42px)}
+/*# sourceMappingURL=main.d4263636.css.map*/

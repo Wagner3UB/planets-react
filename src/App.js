@@ -1,14 +1,11 @@
-import { BrowserRouter } from "react-router-dom";
 import "./assets/App.css";
-import ScreenRoutes from "./ScreenRoutes";
+import Planets from "./components/planets/Planets";
 
 function App() {
   return (
-    <BrowserRouter>
       <article>
-        <ScreenRoutes />
+        <Planets />
       </article>
-    </BrowserRouter>
   );
 }
 
