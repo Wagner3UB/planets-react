@@ -1,0 +1,10 @@
+.planets{
+  display: flex;
+  flex-wrap: wrap;
+}
+.planet-container{
+  padding: 10px 20px;
+  display: flex;
+  width: calc(50% - 42px);
+  border: 1px solid #ddd;
+}

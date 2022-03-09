@@ -1,0 +1,10 @@
+img{
+  border-radius: 100%;
+  width: 100%;
+}
+.gray-img{
+  filter: grayscale(100%);
+}
+.color-img{
+  filter: contrast(200%);
+}
