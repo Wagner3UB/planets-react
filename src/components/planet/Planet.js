@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import FormSatellites from "../planets/planet/FormSatellites/FormSatellites";
+import FormSatellites from "./FormSatellites";
+
 import DescriptionWithLink from "../shared/DescriptionWithLink/DescriptionWithLink";
 import GrayImg from "../shared/GrayImg/GrayImg";
 
