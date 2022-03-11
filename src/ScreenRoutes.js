@@ -7,7 +7,7 @@ import NotFound404 from "./404";
 const ScreenRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<PlanetsScreen />} />
+      <Route exact path="/" element={<PlanetsScreen />} />
       <Route path="/planet/:id" element={<PlanetScreen />} />
       <Route path="*" element={<NotFound404 />} />
     </Routes>
