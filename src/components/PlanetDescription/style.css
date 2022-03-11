@@ -1,0 +1,27 @@
+.planet-description{
+  position: relative;
+}
+.back-button{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.back-link{
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  background-color: #ddd;
+  padding: 3px 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+}
+.back-link:hover{
+  background-color: #ccc;
+}
+.planet-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Form from "./form/Form";
 import Planet from "./planet/Planet";
+import Form from "./form/Form";
 import "./style.css";
 
 async function getPlanets() {
@@ -55,6 +55,7 @@ const Planets = () => {
           <div key={index} className="planet-container">
             <Planet
               name={e.name}
+              id={e.id}
               description={e.description}
               img_url={e.img_url}
               link={e.link}

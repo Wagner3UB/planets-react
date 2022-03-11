@@ -8,3 +8,8 @@
   width: calc(50% - 42px);
   border: 1px solid #ddd;
 }
+@media screen and (max-width: 600px) {
+  .planet-container{
+    width: 100%;
+  }
+}
