@@ -11,7 +11,7 @@ const Planet = (props) => {
   return (
     <div>
       <h2 className="planet-title">{props.name}</h2>
-      <Link to={`/planet/${props.id}`} > More info</Link>
+      <Link to={`/planets-react/planet/${props.id}`} > More info</Link>
       <DescriptionWithLink description={props.description} link={props.link} />
       <GrayImg img_url={props.img_url} imgColor={props.imgColor} />
     </div>

@@ -6,7 +6,7 @@ function NotFound404() {
   return (
     <>
       <img className="img-404" src="https://cdn.mos.cms.futurecdn.net/PuXipAW3AXUzUJ4uYyxPKC-1200-80.jpg" alt="page not found"/>
-      <Link to="/">Back</Link>
+      <Link to="/planets-react/">Back</Link>
     </>
   );
 }

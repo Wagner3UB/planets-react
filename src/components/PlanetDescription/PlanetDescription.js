@@ -30,7 +30,7 @@ const PlanetDescription = () => {
   }, [id]);
 
   const goToHome = () => {
-    navigate("/");
+    navigate("/planets-react/");
   };
 
   const addSatellites = (newSatellites) => {
@@ -38,7 +38,7 @@ const PlanetDescription = () => {
   };
 
   if(redirect){
-    return <Navigate to="/" />
+    return <Navigate to="/planets-react/" />
   }
   return (
     <div className="planet-description">
@@ -63,7 +63,7 @@ const PlanetDescription = () => {
       <button className="back-button" type="button" onClick={goToHome}>
         Back with Navigate
       </button>
-      <Link className="back-link" to="/">
+      <Link className="back-link" to="/planets-react/">
         Back with Link
       </Link>
     </div>
